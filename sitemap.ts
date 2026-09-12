@@ -1,0 +1,1 @@
+import {MetadataRoute} from 'next'; export default function sitemap():MetadataRoute.Sitemap{return ['','/contact','/privacy-policy','/terms-and-conditions'].map(path=>({url:`https://shashikdigital.com${path}`,lastModified:new Date()}))}
